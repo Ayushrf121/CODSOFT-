@@ -11,7 +11,7 @@ export default function QuizList() {
   useEffect(() => {
 
     if (token) {
-      axios.get("http://localhost:5000/api/quiz")
+      axios.get("https://codsoft-djid.onrender.com/api/quiz")
         .then(res => setQuizzes(res.data))
         .catch(err => console.log(err));
     }
