@@ -15,7 +15,7 @@ export default function Register() {
     setLoading(true);
 
     try{
-      await axios.post("http://localhost:5000/api/auth/register",{
+      await axios.post("https://codsoft-djid.onrender.com/api/auth/register",{
         name,email,password
       });
       alert("Registered Successfully");
