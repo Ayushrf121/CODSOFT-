@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111827;
+  padding: 15px 32px;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+.logout-btn {
+  background: red;
+  border: none;
+  color: white;
+  margin-left: 18px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: darkred;
+}
+
+/* 📱 MOBILE */
+@media (max-width:600px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    display: block;
+    margin: 8px 0;
+  }
+}

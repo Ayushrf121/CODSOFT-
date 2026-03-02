@@ -1,0 +1,11 @@
+.form-box {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+@media (max-width:600px) {
+  .form-box {
+    padding: 10px;
+  }
+}
