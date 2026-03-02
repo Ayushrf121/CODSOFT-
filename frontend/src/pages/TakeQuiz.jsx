@@ -22,7 +22,7 @@ export default function TakeQuiz() {
       setSubmitted(true);
     }
 
-    axios.get(`http://localhost:5000/api/quiz/${id}`)
+    axios.get(`https://codsoft-djid.onrender.com/api/quiz/${id}`)
       .then(res => setQuiz(res.data))
       .catch(err => console.log(err));
 
