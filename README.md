@@ -27,13 +27,6 @@ The application allows users to create, manage, and attempt quizzes in a dynamic
 
 ---
 
-## 📂 Folder Structure
-CODSOFT-/
-├── backend/ # Node.js + Express API & Database logic
-├── frontend/ # React-based user interface
-└── README.md
-
----
 
 ## 🎯 Project Objective
 
