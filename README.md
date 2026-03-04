@@ -1,6 +1,6 @@
 # Online Quiz Maker – MERN Stack Application
 
-This repository contains my **Online Quiz Maker** project developed using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)** as part of my CodeSoft internship.
+This repository contains my **Online Quiz Maker** project developed using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)** as part of my CodSoft internship.
 
 The application allows users to create, manage, and attempt quizzes in a dynamic and interactive environment.
 
